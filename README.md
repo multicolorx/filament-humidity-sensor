@@ -65,7 +65,9 @@ Use an ST-Link compatible probe for programming/debugging.
 
 ## Firmware
 
-This repository currently contains hardware design files only. Add firmware in a separate folder (for example `firmware/`) and document flashing/build steps here.
+Example firmware is available in `firmware/low-power-example/`:
+- `firmware/low-power-example/main.c` low-power control loop (SHT40 + LCD + RTC alarm + STOP mode)
+- `firmware/low-power-example/README.md` integration notes for STM32CubeMX/CubeIDE
 
 ## Notes
 
