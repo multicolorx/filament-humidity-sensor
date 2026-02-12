@@ -1,0 +1,10 @@
+{
+  "C_Cpp.default.configurationProvider": "",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**"
+  ],
+  "C_Cpp.default.defines": [
+    "USE_HAL_DRIVER",
+    "STM32L053xx"
+  ]
+}
