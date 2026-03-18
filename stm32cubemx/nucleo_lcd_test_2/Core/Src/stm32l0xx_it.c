@@ -55,7 +55,8 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-
+extern LCD_HandleTypeDef hlcd;
+extern RTC_HandleTypeDef hrtc;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -139,6 +140,33 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32l0xx.s).                    */
 /******************************************************************************/
+
+/**
+  * @brief This function handles RTC global interrupt through EXTI lines 17, 19 and 20 and LSE CSS interrupt through EXTI line 19.
+  */
+void RTC_IRQHandler(void)
+{
+  /* USER CODE BEGIN RTC_IRQn 0 */
+
+  /* USER CODE END RTC_IRQn 0 */
+  HAL_RTCEx_WakeUpTimerIRQHandler(&hrtc);
+  /* USER CODE BEGIN RTC_IRQn 1 */
+
+  /* USER CODE END RTC_IRQn 1 */
+}
+
+/**
+  * @brief This function handles LCD global interrupt.
+  */
+void LCD_IRQHandler(void)
+{
+  /* USER CODE BEGIN LCD_IRQn 0 */
+
+  /* USER CODE END LCD_IRQn 0 */
+  /* USER CODE BEGIN LCD_IRQn 1 */
+
+  /* USER CODE END LCD_IRQn 1 */
+}
 
 /* USER CODE BEGIN 1 */
 

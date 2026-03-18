@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****        necessary).
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****    (#) For a given Channel, program the required configuration through the following parameters:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 2
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****        Channel request, Transfer Direction, Source and Destination data formats,
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** /** @addtogroup STM32L0xx_HAL_Driver
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @{
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 3
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 3
 
 
   90:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  144:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   /* Check the DMA handle allocation */
  145:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   if(hdma == NULL)
  146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 4
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 4
 
 
  147:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     return HAL_ERROR;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  201:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   hdma->State  = HAL_DMA_STATE_READY;
  202:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  203:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   /* Allocate lock resource and initialize it */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 5
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 5
 
 
  204:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   hdma->Lock = HAL_UNLOCKED;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   __HAL_UNLOCK(hdma);
  259:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   return HAL_OK;
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 6
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 6
 
 
  261:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  315:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     DMA_SetConfig(hdma, SrcAddress, DstAddress, DataLength);
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  317:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Enable the Peripheral */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 7
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 7
 
 
  318:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     __HAL_DMA_ENABLE(hdma);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  372:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Enable the Peripheral */
  374:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     __HAL_DMA_ENABLE(hdma);
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 8
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 8
 
 
  375:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  429:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @brief  Aborts the DMA Transfer in Interrupt mode.
  430:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
  431:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   *                 the configuration information for the specified DMA Channel.
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 9
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 9
 
 
  432:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @retval HAL status
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  486:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* no transfer ongoing */
  487:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     hdma->ErrorCode = HAL_DMA_ERROR_NO_XFER;
  488:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 10
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 10
 
 
  489:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     return HAL_ERROR;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  543:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         hdma->State = HAL_DMA_STATE_READY;
  544:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  545:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         /* Process Unlocked */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 11
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 11
 
 
  546:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         __HAL_UNLOCK(hdma);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  600:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****      if(hdma->XferHalfCpltCallback != NULL)
  601:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****       {
  602:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         /* Half transfer callback */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 12
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 12
 
 
  603:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         hdma->XferHalfCpltCallback(hdma);
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  657:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   else
  658:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
  659:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Nothing To Do */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 13
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 13
 
 
  660:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  714:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   return status;
  715:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
  716:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 14
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 14
 
 
  717:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** /**
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  771:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  772:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   return status;
  773:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 15
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 15
 
 
  774:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  828:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** /** @addtogroup DMA_Private_Functions
  829:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @{
  830:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 16
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 16
 
 
  831:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
   61              		.loc 1 850 5 view .LVU13
   62 0016 102B     		cmp	r3, #16
   63 0018 04D0     		beq	.L4
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 17
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 17
 
 
  851:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
   96              		.section	.text.HAL_DMA_Init,"ax",%progbits
   97              		.align	1
   98              		.global	HAL_DMA_Init
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 18
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 18
 
 
   99              		.syntax unified
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  137 000a E818     		adds	r0, r5, r3
  138              	.LVL6:
  163:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   hdma->DmaBaseAddress = DMA1;
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 19
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 19
 
 
  139              		.loc 1 163 78 view .LVU44
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  176              		.loc 1 180 21 view .LVU61
  177 0030 6169     		ldr	r1, [r4, #20]
  179:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****           hdma->Init.PeriphDataAlignment | hdma->Init.MemDataAlignment |
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 20
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 20
 
 
  178              		.loc 1 179 72 view .LVU62
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  215              		.loc 1 191 65 view .LVU79
  216 0054 1C22     		movs	r2, #28
  217 0056 1540     		ands	r5, r2
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 21
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 21
 
 
  191:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  255 007e 0020     		movs	r0, #0
  256              	.LVL13:
  257              	.L6:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 22
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 22
 
 
  207:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  225:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  306              		.loc 1 225 3 is_stmt 1 view .LVU105
  228:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 23
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 23
 
 
  307              		.loc 1 228 3 view .LVU106
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  239:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  346              		.loc 1 239 30 view .LVU122
  347 0032 4560     		str	r5, [r0, #4]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 24
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 24
 
 
  243:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  382              		.loc 1 258 3 view .LVU142
  383 0052 013A     		subs	r2, r2, #1
  384 0054 A354     		strb	r3, [r4, r2]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 25
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 25
 
 
  258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  432              		.cfi_offset 14, -4
  433 0002 0400     		movs	r4, r0
  434 0004 1E00     		movs	r6, r3
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 26
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 26
 
 
  297:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  472              	.LVL29:
  473              	.L17:
  327:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 27
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 27
 
 
  474              		.loc 1 327 1 view .LVU169
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  519              		.align	1
  520              		.global	HAL_DMA_Start_IT
  521              		.syntax unified
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 28
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 28
 
 
  522              		.code	16
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  564              		.loc 1 348 5 view .LVU192
  565 0018 0128     		cmp	r0, #1
  566 001a 04D0     		beq	.L27
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 29
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 29
 
 
  379:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  607 003e 2B00     		movs	r3, r5
  608 0040 2000     		movs	r0, r4
  609 0042 FFF7FEFF 		bl	DMA_SetConfig
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 30
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 30
 
 
  610              	.LVL45:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  656              		.align	1
  657              		.global	HAL_DMA_Abort
  658              		.syntax unified
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 31
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 31
 
 
  659              		.code	16
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  700              		@ sp needed
  701 0016 10BD     		pop	{r4, pc}
  702              	.LVL50:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 32
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 32
 
 
  703              	.L29:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  742              	.LVL51:
  424:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
  743              		.loc 1 424 12 view .LVU245
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 33
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 33
 
 
  744 0046 E6E7     		b	.L30
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  788              		.loc 1 469 1 is_stmt 0 view .LVU257
  789              		@ sp needed
  790 0010 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 34
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 34
 
 
  791              	.LVL56:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  830 003e 836B     		ldr	r3, [r0, #56]
  463:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     {
  831              		.loc 1 463 7 view .LVU273
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 35
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 35
 
 
  832 0040 002B     		cmp	r3, #0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  880              		.loc 1 482 3 view .LVU281
  484:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
  881              		.loc 1 484 3 view .LVU282
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 36
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 36
 
 
  484:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  920              		.loc 1 493 6 view .LVU298
  921 0026 9B06     		lsls	r3, r3, #26
  922 0028 29D4     		bmi	.L49
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 37
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 37
 
 
  500:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  960 0048 616C     		ldr	r1, [r4, #68]
  516:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     {
  961              		.loc 1 516 80 view .LVU316
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 38
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 38
 
 
  962 004a 1C23     		movs	r3, #28
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1001 0078 E254     		strb	r2, [r4, r3]
  546:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1002              		.loc 1 546 9 view .LVU332
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 39
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 39
 
 
  548:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****       }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1042              		.loc 1 524 7 is_stmt 1 view .LVU347
  524:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1043              		.loc 1 524 23 is_stmt 0 view .LVU348
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 40
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 40
 
 
  1044 009c E163     		str	r1, [r4, #60]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1081              		.loc 1 569 3 is_stmt 1 view .LVU365
  569:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1082              		.loc 1 569 3 view .LVU366
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 41
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 41
 
 
  1083 00c2 2423     		movs	r3, #36
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  582:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   uint32_t source_it = hdma->Instance->CCR;
  1128              		.loc 1 582 26 is_stmt 0 view .LVU378
  1129 0002 036C     		ldr	r3, [r0, #64]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 42
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 42
 
 
  582:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   uint32_t source_it = hdma->Instance->CCR;
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  595:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1170              		.loc 1 595 7 view .LVU393
  595:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 43
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 43
 
 
  1171              		.loc 1 595 58 is_stmt 0 view .LVU394
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1210              		.loc 1 610 23 is_stmt 0 view .LVU409
  1211 0056 6346     		mov	r3, ip
  1212 0058 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 44
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 44
 
 
  610:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     {
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  624:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     {
  1252              		.loc 1 624 7 view .LVU425
  1253 0086 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 45
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 45
 
 
  1254 0088 DED0     		beq	.L52
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  643:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1295              		.loc 1 643 5 is_stmt 1 view .LVU439
  643:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 46
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 46
 
 
  1296              		.loc 1 643 21 is_stmt 0 view .LVU440
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1339              	.LCFI10:
  1340              		.cfi_def_cfa_offset 8
  1341              		.cfi_offset 4, -8
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 47
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 47
 
 
  1342              		.cfi_offset 14, -4
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1381              		.loc 1 712 3 is_stmt 1 view .LVU468
  714:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
  1382              		.loc 1 714 3 view .LVU469
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 48
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 48
 
 
  1383              	.LVL95:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  686:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****            break;
  1422              		.loc 1 686 35 is_stmt 0 view .LVU485
  1423 0046 DC62     		str	r4, [r3, #44]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 49
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 49
 
 
  687:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1466              		.loc 1 730 3 view .LVU499
  1467 0002 2422     		movs	r2, #36
  1468 0004 825C     		ldrb	r2, [r0, r2]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 50
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 50
 
 
  1469 0006 012A     		cmp	r2, #1
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1509 0028 0AD9     		bls	.L86
  1510 002a 0329     		cmp	r1, #3
  1511 002c 18D0     		beq	.L81
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 51
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 51
 
 
  1512 002e 0429     		cmp	r1, #4
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1548              		.loc 1 737 12 is_stmt 1 view .LVU531
  737:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****            break;
  1549              		.loc 1 737 35 is_stmt 0 view .LVU532
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 52
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 52
 
 
  1550 0050 0022     		movs	r2, #0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1590              		.syntax unified
  1591              		.code	16
  1592              		.thumb_func
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 53
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 53
 
 
  1594              	HAL_DMA_GetState:
@@ -3178,45 +3178,45 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 1
  1642              		.file 2 "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/inclu
  1643              		.file 3 "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/inclu
  1644              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h"
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 54
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 54
 
 
  1645              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  1646              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
  1647              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h"
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s 			page 55
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s 			page 55
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_dma.c
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:19     .text.DMA_SetConfig:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:24     .text.DMA_SetConfig:00000000 DMA_SetConfig
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:97     .text.HAL_DMA_Init:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:103    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:273    .text.HAL_DMA_Init:00000088 $d
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:281    .text.HAL_DMA_DeInit:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:287    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:405    .text.HAL_DMA_DeInit:00000060 $d
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:412    .text.HAL_DMA_Start:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:418    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:519    .text.HAL_DMA_Start_IT:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:525    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:656    .text.HAL_DMA_Abort:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:662    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:749    .text.HAL_DMA_Abort_IT:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:755    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:851    .text.HAL_DMA_PollForTransfer:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:857    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1108   .text.HAL_DMA_IRQHandler:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1114   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1324   .text.HAL_DMA_RegisterCallback:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1330   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1447   .text.HAL_DMA_UnRegisterCallback:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1453   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1588   .text.HAL_DMA_GetState:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1594   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1616   .text.HAL_DMA_GetError:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccGb10cm.s:1622   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:19     .text.DMA_SetConfig:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:24     .text.DMA_SetConfig:00000000 DMA_SetConfig
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:97     .text.HAL_DMA_Init:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:103    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:273    .text.HAL_DMA_Init:00000088 $d
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:281    .text.HAL_DMA_DeInit:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:287    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:405    .text.HAL_DMA_DeInit:00000060 $d
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:412    .text.HAL_DMA_Start:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:418    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:519    .text.HAL_DMA_Start_IT:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:525    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:656    .text.HAL_DMA_Abort:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:662    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:749    .text.HAL_DMA_Abort_IT:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:755    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:851    .text.HAL_DMA_PollForTransfer:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:857    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1108   .text.HAL_DMA_IRQHandler:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1114   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1324   .text.HAL_DMA_RegisterCallback:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1330   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1447   .text.HAL_DMA_UnRegisterCallback:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1453   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1588   .text.HAL_DMA_GetState:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1594   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1616   .text.HAL_DMA_GetError:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccx1GwV8.s:1622   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

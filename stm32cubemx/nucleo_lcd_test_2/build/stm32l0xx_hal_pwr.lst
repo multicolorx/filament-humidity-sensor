@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @{
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   */
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 2
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** /** @addtogroup PWR
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
   32              		.loc 1 81 3 view .LVU1
   33 0000 054B     		ldr	r3, .L2
   34 0002 996A     		ldr	r1, [r3, #40]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 3
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 3
 
 
   35 0004 8022     		movs	r2, #128
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  109:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     *** PVD configuration ***
  110:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     =========================
  111:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     [..]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 4
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 4
 
 
  112:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       (+) The PVD is used to monitor the VDD power supply by comparing it to a
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  166:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****    =========================
  167:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     [..]
  168:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****        To further reduce the consumption when the system is in Run mode, the regulator can be
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 5
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 5
 
 
  169:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****         configured in low power mode. In this mode, the system frequency should not exceed
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  223:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       incurred when waking up from Stop mode.
  224:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       To minimize the consumption In Stop mode, VREFINT, the BOR, PVD, and temperature
  225:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       sensor can be switched off before entering Stop mode. They can be switched on again by
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 6
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 6
 
 
  226:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       software after exiting Stop mode using the ULP bit in the PWR_CR register.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  280:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****                    function.
  281:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****              (+++) Configure the RTC to detect the tamper or time stamp event using the
  282:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****                    RTC_TimeStampConfig(), RTC_TamperTriggerConfig() and RTC_TamperCmd()
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 7
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 7
 
 
  283:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****                    functions.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
   71 0002 1168     		ldr	r1, [r2]
   72 0004 8023     		movs	r3, #128
   73 0006 5B00     		lsls	r3, r3, #1
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 8
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 8
 
 
   74 0008 0B43     		orrs	r3, r1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  117              		.section	.text.HAL_PWR_ConfigPVD,"ax",%progbits
  118              		.align	1
  119              		.global	HAL_PWR_ConfigPVD
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 9
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 9
 
 
  120              		.syntax unified
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  367:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   __HAL_PWR_PVD_EXTI_DISABLE_FALLING_EDGE(); 
  152              		.loc 1 367 3 view .LVU16
  153 001e D968     		ldr	r1, [r3, #12]
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 10
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 10
 
 
  154 0020 1140     		ands	r1, r2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  192 0050 DB07     		lsls	r3, r3, #31
  193 0052 05D5     		bpl	.L13
  384:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   {
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 11
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 11
 
 
  385:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     __HAL_PWR_PVD_EXTI_ENABLE_RISING_EDGE();
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  398:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** void HAL_PWR_EnablePVD(void)
  399:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** {
  237              		.loc 1 399 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 12
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 12
 
 
  238              		.cfi_startproc
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  281              	.L26:
  282              		.align	2
  283              	.L25:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 13
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 13
 
 
  284 000c 00700040 		.word	1073770496
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  323              		.code	16
  324              		.thumb_func
  326              	HAL_PWR_DisableWakeUpPin:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 14
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 14
 
 
  327              	.LVL2:
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  454:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   *            @arg PWR_MAINREGULATOR_ON: SLEEP mode with regulator ON
  455:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   *            @arg PWR_LOWPOWERREGULATOR_ON: SLEEP mode with low power regulator ON
  456:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @param SLEEPEntry: Specifies if SLEEP mode is entered with WFI or WFE instruction.
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 15
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 15
 
 
  457:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   *           When WFI entry is used, tick interrupt have to be disabled if not desired as 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  394              		.loc 1 476 13 view .LVU61
  395 0014 0125     		movs	r5, #1
  396 0016 2B40     		ands	r3, r5
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 16
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 16
 
 
  397              	.LVL7:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  432              	.LVL12:
  433              		.loc 1 495 3 view .LVU74
  434 003a 0425     		movs	r5, #4
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 17
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 17
 
 
  435 003c AA43     		bics	r2, r5
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  471              	.LVL15:
  472              		.loc 1 513 5 view .LVU85
  473 0058 9B00     		lsls	r3, r3, #2
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 18
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 18
 
 
  474 005a 0B43     		orrs	r3, r1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  523:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @note In Stop mode, all I/O pins keep the same state as in Run mode.
  524:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @note When exiting Stop mode by issuing an interrupt or a wakeup event,
  525:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   *        MSI or HSI16 RCoscillator is selected as system clock depending 
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 19
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 19
 
 
  526:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   *        the bit STOPWUCK in the RCC_CFGR register.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  543              	.LVL21:
  544              		.loc 1 556 10 view .LVU99
  545 000a 8000     		lsls	r0, r0, #2
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 20
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 20
 
 
  546 000c 2300     		movs	r3, r4
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  571:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
  572:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   /* Store the new value */
  573:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   PWR->CR = tmpreg;
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 21
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 21
 
 
  586              		.loc 1 573 3 view .LVU112
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  620              		.loc 1 593 3 view .LVU122
  621 004c 0C49     		ldr	r1, .L47+12
  622              	.LVL31:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 22
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 22
 
 
  623              		.loc 1 593 3 is_stmt 0 view .LVU123
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  670 0080 00ED00E0 		.word	-536810240
  671              		.cfi_endproc
  672              	.LFE56:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 23
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 23
 
 
  674              		.section	.text.HAL_PWR_EnterSTANDBYMode,"ax",%progbits
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  701              		.syntax divided
  702              	@ 627 "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c" 1
  703 0014 30BF     		wfi
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 24
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 24
 
 
  704              	@ 0 "" 2
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  745              		.cfi_endproc
  746              	.LFE58:
  748              		.section	.text.HAL_PWR_DisableSleepOnExit,"ax",%progbits
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 25
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 25
 
 
  749              		.align	1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  662:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @retval None
  663:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   */
  664:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** void HAL_PWR_EnableSEVOnPend(void)
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 26
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 26
 
 
  665:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** {
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  827 0008 1361     		str	r3, [r2, #16]
  681:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** }
  828              		.loc 1 681 1 is_stmt 0 view .LVU149
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 27
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 27
 
 
  829              		@ sp needed
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  855              		.cfi_endproc
  856              	.LFE63:
  858              		.section	.text.HAL_PWR_PVD_IRQHandler,"ax",%progbits
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 28
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 28
 
 
  859              		.align	1
@@ -1678,66 +1678,66 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 1
  907              		.file 2 "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/inclu
  908              		.file 3 "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/inclu
  909              		.file 4 "Drivers/CMSIS/Include/core_cm0plus.h"
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 29
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 29
 
 
  910              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h"
  911              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_pwr.h"
  912              		.file 7 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h"
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s 			page 30
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s 			page 30
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_pwr.c
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:19     .text.HAL_PWR_DeInit:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:25     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:50     .text.HAL_PWR_DeInit:00000018 $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:56     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:62     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:82     .text.HAL_PWR_EnableBkUpAccess:00000010 $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:87     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:93     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:112    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:118    .text.HAL_PWR_ConfigPVD:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:124    .text.HAL_PWR_ConfigPVD:00000000 HAL_PWR_ConfigPVD
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:222    .text.HAL_PWR_ConfigPVD:00000074 $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:229    .text.HAL_PWR_EnablePVD:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:235    .text.HAL_PWR_EnablePVD:00000000 HAL_PWR_EnablePVD
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:254    .text.HAL_PWR_EnablePVD:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:259    .text.HAL_PWR_DisablePVD:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:265    .text.HAL_PWR_DisablePVD:00000000 HAL_PWR_DisablePVD
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:284    .text.HAL_PWR_DisablePVD:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:289    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:295    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:315    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:320    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:326    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:346    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:351    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:357    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:503    .text.HAL_PWR_EnterSLEEPMode:00000068 $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:511    .text.HAL_PWR_EnterSTOPMode:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:517    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:667    .text.HAL_PWR_EnterSTOPMode:00000074 $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:675    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:681    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:713    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:719    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:725    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:744    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:749    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:755    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:774    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:779    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:785    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:804    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:809    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:815    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:834    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:839    .text.HAL_PWR_PVDCallback:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:845    .text.HAL_PWR_PVDCallback:00000000 HAL_PWR_PVDCallback
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:859    .text.HAL_PWR_PVD_IRQHandler:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:865    .text.HAL_PWR_PVD_IRQHandler:00000000 HAL_PWR_PVD_IRQHandler
-C:\Users\Tilen\AppData\Local\Temp\ccqvf2YE.s:901    .text.HAL_PWR_PVD_IRQHandler:0000001c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:19     .text.HAL_PWR_DeInit:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:25     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:50     .text.HAL_PWR_DeInit:00000018 $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:56     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:62     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:82     .text.HAL_PWR_EnableBkUpAccess:00000010 $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:87     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:93     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:112    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:118    .text.HAL_PWR_ConfigPVD:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:124    .text.HAL_PWR_ConfigPVD:00000000 HAL_PWR_ConfigPVD
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:222    .text.HAL_PWR_ConfigPVD:00000074 $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:229    .text.HAL_PWR_EnablePVD:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:235    .text.HAL_PWR_EnablePVD:00000000 HAL_PWR_EnablePVD
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:254    .text.HAL_PWR_EnablePVD:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:259    .text.HAL_PWR_DisablePVD:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:265    .text.HAL_PWR_DisablePVD:00000000 HAL_PWR_DisablePVD
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:284    .text.HAL_PWR_DisablePVD:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:289    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:295    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:315    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:320    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:326    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:346    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:351    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:357    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:503    .text.HAL_PWR_EnterSLEEPMode:00000068 $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:511    .text.HAL_PWR_EnterSTOPMode:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:517    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:667    .text.HAL_PWR_EnterSTOPMode:00000074 $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:675    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:681    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:713    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:719    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:725    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:744    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:749    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:755    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:774    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:779    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:785    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:804    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:809    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:815    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:834    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:839    .text.HAL_PWR_PVDCallback:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:845    .text.HAL_PWR_PVDCallback:00000000 HAL_PWR_PVDCallback
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:859    .text.HAL_PWR_PVD_IRQHandler:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:865    .text.HAL_PWR_PVD_IRQHandler:00000000 HAL_PWR_PVD_IRQHandler
+C:\Users\Tilen\AppData\Local\Temp\ccWZffdj.s:901    .text.HAL_PWR_PVD_IRQHandler:0000001c $d
 
 NO UNDEFINED SYMBOLS

@@ -1,0 +1,909 @@
+DW01A
+描述
+
+/
+
+Descriptions
+
+SOT23-6 塑封封装锂电池保护 IC。Battery Protection IC in a SOT23-6 Plastic Package.
+
+特征
+
+/ Features
+
+过电压充电保护阈值
+Over voltage charging protection
+threshold
+过电压充电恢复阈值
+
+Over voltage charging restore threshold
+过电压放电保护阈值
+Over voltage discharge protection
+threshold
+过电压放电恢复阈值
+Over voltage discharge recovery
+threshold
+过电流放电保护阈值
+Discharge overcurrent detection voltage
+过电压充电保护延迟时间
+Over voltage charging protection
+delay time
+过电压放电保护延迟时间
+
+4.3V
+
+精度
+Accuracy
+
+±50 mV
+
+4.1V
+
+精度
+Accuracy
+
+±50 mV
+
+2.5V
+
+精度
+Accuracy
+
+±75 mV
+
+2.9V
+
+精度
+Accuracy
+
+±75 mV
+
+0.15V
+
+精度
+Accuracy
+
+±20 mV
+
+110ms
+
+精度
+Accuracy
+
+±30%
+
+Over voltage discharge protection
+delay time
+过电流放电保护延迟时间
+
+55ms
+
+典型值
+Typ
+
+Over current discharge protection
+delay time
+0V 充电功能
+0V battery charge function
+低功耗模式
+A Low Power Consumption mode
+
+7ms
+
+典型值
+Typ
+
+用途
+
+/
+
+允许
+Admit
+允许
+Admit
+
+±30%
+
+±30%
+
+
+
+Applications
+
+用于锂电池的充电、放电保护电路、电话机电池或其它锂电池高精度保护器。
+For rechargeable lithium battery, discharge protection circuit, telephone or other lithium battery with
+high precision protector
+
+www.slkormicro.com
+
+1
+
+Rev.2 -- 16 December 2022
+
+DW01A
+内部等效电路
+
+引脚排列
+
+/ Equivalent Circuit
+
+/ Pinning
+
+6
+1
+
+5
+2
+
+引脚名称
+Pin Name
+
+引脚序号
+Pin Number
+
+DO
+
+1
+
+放电控制输出端
+Discharge control output terminal
+
+VM
+
+2
+
+充/放电电流检测输入端
+Charge/discharge current detection input
+
+CO
+
+3
+
+充电控制输出端
+Charge control output terminal
+
+NC
+
+4
+
+不接
+Not connected
+
+VDD
+
+5
+
+电源输入端
+Power input
+
+VSS
+
+6
+
+电源接地端
+Power ground terminal
+
+4
+3
+
+印章代码
+
+引脚功能
+Pin Function
+
+/ Marking
+
+见印章说明。 See Marking Instructions.
+
+www.slkormicro.com
+
+2
+
+Rev.2 -- 16 December 2022
+
+DW01A
+极限参数
+
+/
+
+Absolute Maximum Ratings(Ta=25℃)
+参数
+Parameter
+
+符号
+Symbol
+VDD
+
+数值
+Rating
+-0.3 ～10
+
+单位
+Unit
+V
+
+VM pin Input voltage
+
+VM
+
+VDD-35 to VDD+0.3
+
+V
+
+OC output pin voltage
+
+VCO
+
+VDD-35 to VDD+0.3
+
+V
+
+OD output pin voltage
+
+VDO
+
+VDD-0.3 to VDD+0.3
+
+V
+
+Power Dissipation
+
+PD
+
+625
+
+mW
+
+Operating Temperature
+
+Topr
+
+-40 to +85
+
+℃
+
+Storage Temperature
+
+Tstg
+
+-65 to +150
+
+℃
+
+Juction Temperature
+
+TJ
+
+150
+
+℃
+
+Power supply
+
+电性能参数
+
+/ Electrical Characteristics( Ta=25℃&－40℃≤Ta≤85℃)
+
+参数
+Parameter
+
+符号
+Symbol
+
+Power supply
+
+VDD
+
+Over voltage charging
+protection threshold
+(low to high)
+
+VOC
+
+Over voltage charging
+restore threshold
+(high to low)
+
+VOCR
+
+Over voltage charging
+protection delay time
+
+tOC
+
+Over voltage discharge
+protection threshold
+（high to low）
+
+VOD
+
+Over voltage discharge
+recovery threshold
+(low to high)
+
+VODR
+
+Over voltage discharge
+protection delay time
+Over current discharge
+protection threshold
+Over current discharge
+protection delay time
+Over current discharge
+recovery delay time
+Battery short circuit
+protection threshold
+
+www.slkormicro.com
+
+测试条件
+Test Conditions
+－40℃≤Ta≤85℃
+
+最小值
+Min
+
+典型值
+Typ
+
+1.5
+
+最大值
+Max
+
+单位
+Unit
+
+10
+
+V
+
+Ta=25℃
+
+VOCTYP-0.050
+
+VOCTYP
+
+VOCTYP+0.050
+
+V
+
+－40℃≤Ta≤85℃
+
+VOCTYP-0.080
+
+VOCTYP
+
+VOCTYP+0.080
+
+V
+
+Ta=25℃ R1=100Ω（注 1） VOCRTYP-0.050
+
+VOCRTYP
+
+VOCRTYP+0.050
+
+V
+
+VOCRTYP-0.080
+
+VOCRTYP
+
+VOCRTYP+0.080
+
+V
+
+0.7×tOCTYP
+
+tOCTYP
+
+1.3×tOCTYP
+
+ms
+
+Ta=25℃
+
+VODTYP-0.075
+
+VODTYP
+
+VODTYP+0.075
+
+－40℃≤Ta≤85℃
+
+VODTYP-0.105
+
+VODTYP
+
+VODTYP+0.105
+
+V
+
+Ta=25℃
+
+VODRTYP-0.075
+
+VODRTYP
+
+VODRTYP+0.075
+
+V
+
+－40℃≤Ta≤85℃
+
+VODRTYP-0.105
+
+VODRTYP
+
+VODRTYP+0.105
+
+V
+
+tOD
+
+VDD=3.6V→2.4V
+Ta=25℃
+
+0.7×tODTYP
+
+tODTYP
+
+1.3×tODTYP
+
+ms
+
+VEDI
+
+Ta=25℃
+
+VEDITYP-0.020
+
+VEDITYP
+
+VEDITYP+0.020
+
+V
+
+tEDI
+
+Ta=25℃
+
+0.7×tEDITYP
+
+TEDITYP
+
+1.3×tEDITYP
+
+ms
+
+tEDIR
+
+Ta=25℃
+
+1.20
+
+1.80
+
+2.40
+
+ms
+
+VSHORT
+
+VM 端电压
+Ta=25℃
+
+0.82
+
+1.36
+
+1.75
+
+V
+
+40℃≤Ta≤85℃R1=100Ω
+（注 1）
+VDD=3.6V→4.4V
+Ta=25℃
+
+3
+
+V
+
+Rev.2 -- 16 December 2022
+
+DW01A
+电性能参数
+
+/ Electrical Characteristics(Ta=25℃)
+
+参数
+Parameter
+Battery short circuit
+protection delay time
+The charger voltage
+detection
+Between VM to VDD of
+the pull-up resistor
+The pull-down resistor
+between VM to VSS
+The COT output low
+pull-down resistor
+
+符号
+Symbol
+
+典型值
+Typ
+
+最大值
+Max
+
+单位
+Unit
+
+Ta=25℃
+
+200
+
+400
+
+600
+
+μs
+
+VCHG
+
+VDD=3.0V Ta=25℃
+
+-0.27
+
+-0.5
+
+-0.86
+
+V
+
+RVMD
+
+VDD=1.8V，VM=0V
+Ta=25℃
+
+100
+
+300
+
+900
+
+kΩ
+
+RVMS
+
+Ta=25℃
+
+15
+
+30
+
+45
+
+kΩ
+
+Ta=25℃
+
+DO output low level
+DO output high level
+
+A low power consumption
+mode the quiescent
+current
+0V charging allowed
+voltage threshold
+(0V charging allowed
+type)
+0V charging prohibition
+threshold
+(0V charging prohibition
+model)
+
+最小值
+Min
+
+tSHORT
+
+CO output high level
+
+Power supply current
+
+测试条件
+Test Conditions
+
+IDD
+IPDWN
+
+V0V_CHG
+
+V0V_INH
+
+VDD=3.9V，Ta=25℃
+ICO=10μA
+VDD=2.0V，Ta=25℃
+IDO=10μA
+VDD=3.9V，Ta=25℃
+IDO=10μA
+VDD =3.9V
+Ta=25℃
+
+VDD-0.4
+
+MΩ
+
+VDD-0.2
+
+V
+
+0.2
+VDD-0.4
+
+VDD=2.0V
+Ta=25℃
+Ta=25℃
+
+4
+
+0.4
+
+VDD-0.2
+
+V
+
+2.0
+
+6.0
+
+μA
+
+0.7
+
+1.0
+
+μA
+
+1.2
+
+VM=-2.0V
+Ta=25℃
+
+V
+
+V
+
+1.2
+
+V
+
+注：1.除非特别说明，所有电压值均相对于 VSS 而言；
+2.参见应用电路图。
+
+www.slkormicro.com
+
+4
+
+Rev.2 -- 16 December 2022
+
+DW01A
+模块图/ Block Diagram：
+
+概述
+■
+
+DW01A系列电路是一款高精度的单节可充电锂电池的过充电和过放电保护电路，它集高精度过电压
+
+充电保护、过电压放电保护、过电流放电保护等性能于一身。
+■正常状态下，DW01A 的VDD 端电压在过电压充电保护阈值（VOC）和过电压放电保护阈值（VOD）
+之间，且其VM 检测端电压在充电器检测电压（VCHG）与过电流放电保护阈值（VEDI）之间，此时
+DW01A 的CO端和DO 端都输出高电平，分别使外接充电控制N-MOS 管Q1 和放电控制N-MOS 管
+Q2 导通。这时，既可以使用充电器对电池充电，也可以通过负载使电池放电。
+■DW01A 通过检测VDD 或VM 端电压（相对于VSS端）来进行过充/放电保护。当充/放电保护条件
+发生时，CO/DO 由高电平变为低电平，使Q1/Q2 由导通变为截止，从而充/放电过程停止。
+■DW01A 对每种保护状态都有相应的恢复条件，当恢复条件满足以后，CO/DO 由低电平变为高电平，
+使Q1/Q2 由截止变为导通，从而进入正常状态。
+■DW01A 对每种保护/恢复条件都设置了一定的延迟时间，只有在保护/恢复条件持续到相应的时间以
+后，才进行相应的保护/恢复。如果保护/恢复条件在相应的延迟时间以前消除，则不进入保护/恢复状
+态。
+
+www.slkormicro.com
+
+5
+
+Rev.2 -- 16 December 2022
+
+DW01A
+功能描述/ Functional Description：
+DW01A 是一款高精度的锂电池保护电路。正常状态下，如果对电池进行充电，则DW01A 可能会
+进入过电压充电保护状态；同时，满足一定条件后，又会恢复到正常状态。如果对电池放电，则可能会
+进入过电压放电保护状态或过电流放电保护状态；同时，满足一定条件后，也会恢复到正常状态。图3 示
+出了其典型应用线路图，图4 是其状态转换图。下面就各状态进行详细描述。
+■正常状态
+在正常状态下，DW01A 由电池供电，其VDD 端电压在过电压充电保护阈值VOC 和过电压放电
+保护阈值VOD 之间，VM 端电压在充电器检测电压（VCHG）与过电流放电保护阈值（VEDI）之间，
+CO 端和DO 端都输出高电平，外接充电控制N-MOS 管Q1 和放电控制N-MOS 管Q2 均导通。时，
+既可以使用充电器对电池充电，也可以通过负载使电池放电。
+■过电压充电保护状态
+保护条件
+正常状态下，对电池进行充电，如果使VDD 端电压升高超过过电压充电保护阈值VOC，且持续时
+间超过过电压充电保护延迟时间tOC，则DW01A 将使充电控制端CO 由高电平转为VM 端电平（低电
+平），从而使外接充电控制N-MOS 管Q1 关闭，充电回路被“切断”，即DW01A 进入过电压充电保
+护状态。
+恢复条件
+有以下两种条件可以使DW01A 从过电压充电保护状态恢复到正常状态：1）电池由于“自放电”
+使VDD端电压低于过电压充电恢复阈值VOCR；2）通过负载使电池放电（注意，此时虽然Q1 关闭，
+但由于其体内二极管的存在，使放电回路仍然存在），当VDD 端电压低于过电压充电保护阈值VOC，
+且VM 端电压高于过电流放电保护阈值VEDI（在Q1 导通以前，VM 端电压将比VSS 端高一个二极管
+的导通压降）。
+DW01A 恢复到正常状态以后，充电控制端CO将输出高电平，使外接充电控制N-MOS 管Q1 回
+到导通状态。
+DW01A 进入过电压充电保护状态后，如果外部一直接有充电器，致使VM 电压小于充电器检测
+电压（VCHG），那么即使当其VDD 降至VOCR 以下，DW01A也不会恢复到正常状态。此时必须去
+掉充电器，DW01A才会回到正常状态。
+■过电压放电保护/低功耗状态
+保护条件
+正常状态下，如果电池放电使VDD 端电压降低至过电压放电保护阈值VOD，且持续时间超过过电
+压放电保护延迟时间tOD，则DW01A 将使放电控制端DO 由高电平转为VSS 端电平（低电平），从
+而使外接放电控制N-MOS 管Q2 关闭，放电回路被“切断”，即DW01A进入过电压放电保护状态。
+同时，VM 端电压将通过内部电阻RVMD 被上拉到VDD。
+
+
+www.slkormicro.com
+
+6
+
+Rev.2 -- 16 December 2022
+
+DW01A
+
+功能描述/ Functional Description：
+在过电压放电保护状态下，VM 端（亦即VDD 端）电压总是高于电池短路保护阈值VSHORT，满
+足此条件后，电路会进入“省电”的低功耗模式。此时，VDD 端的电流将低于0.7μA。
+恢复条件
+对于处在低功耗模式下电路，如果对电池进行充电（同样，由于Q2 体内二极管的存在，此时的充
+电回路也是存在的），使DW01A电路的VM 端电压低于电池短路保护阈值VSHORT，则它将恢复到
+过电压放电保护状态，此时，放电控制端DO 仍为低电平，Q2 还是关闭的。如果此时停止充电，由于
+VM 端仍被RVMD 上拉到VDD，大于电池短路保护阈值VSHORT，因此DW01A又将回到低功耗模式；
+只有继续对电池充电，当VDD 端电压大于过电压放电保护阈值VOD 时，DW01A 才可从过电压放电
+保护状态恢复到正常状态。
+如果不使用充电器，由于电池去掉负载后的“自升压”，可能会使VDD 端电压超过过电压放电恢
+复阈值VODR，此时DW01A也将从过电压放电保护状态恢复到正常状态；
+DW01A恢复到正常状态以后，放电控制端DO将输出高电平，使外接充电控制N-MOS 管Q2 回
+到导通状态。
+■过电流放电/电池短路保护状态
+保护条件
+正常状态下，通过负载对电池放电，DW01A 电路的VM 端电压将随放电电流的增加而升高。如
+果放电电流增加使VM 端电压超过过电流放电保护阈值VEDI，且持续时间超过过电流放电保护延迟时
+间tEDI，则DW01A进入过电流放电保护状态；如果放电电流进一步增加使VM 端电压超过电池短路保
+护阈值VSHORT，且持续时间超过短路延迟时间tSHORT，则DW01A 进入电池短路保护状态。
+DW01A处于过电流放电/电池短路保护状态时，DO 端将由高电平转为VSS 端电平，从而使外接
+放电控制N-MOS 管Q2 关闭，放电回路被“切断”；同时，VM端将通过内部电阻RVMS 连接到VSS，
+放电负载取消后，VM 端电平即变为VSS 端电平。
+恢复条件
+在过电流放电/电池短路保护状态下，当VM 端电压由高降低至低于过电流放电保护阈值VEDI，且
+持续时间超过过电流放电恢复延迟时间tEDIR，则DW01A可恢复到正常状态。因此，在过电流放电/
+电池短路保护状态下，当所有的放电负载取消后，DW01A即可“自恢复”。
+DW01A恢复到正常状态以后，放电控制端DO将输出高电平，使外接充电控制N-MOS 管Q2 回到
+导通状态。
+充电器检测
+DW01A处于过电压放电保护状态下，如果外部接有充电器，致使VM 端电压低于充电器检测电压
+（VCHG），则只要DW01A的VDD 电压大于VOD，DW01A 即可恢复到正常状态；如果充电器电压
+不能使VM 端电压低于VCHG，则VDD 电压必须大于VODR，DW01A才能恢复到正常状态。这就是通
+常所说的充电器检测功能。
+
+www.slkormicro.com
+
+7
+
+Rev.2 -- 16 December 2022
+
+DW01A
+
+功能描述/ Functional Description：
+
+■0V 电池充电
+0V 电池充电允许
+对于0V 电池充电允许的电路，如果使用充电器对电池充电，使DW01A电路的VDD 端相对VM 端
+的电压大于0V 充电允许阈值V0V_CHG 时，其充电控制端CO将被连接到VDD 端。若该电压能够使外
+接充电控制N-MOS 管Q1 导通，则通过放电控制N-MOS 管Q2 的体内二极管可以形成一个充电回
+路，使电池电压升高；当电池电压升高至使VDD 端电压超过过电压放电保护阈值VOD 时，DW01A 将
+回到正常状态，同时放电控制端DO 输出高电平，使外接放电控制N-MOS 管处于导通状态。
+0V 电池充电禁止
+对于0V 电池充电禁止的电路，如果电池电压低至使DW01A电路的VDD 端电压小于0V 充电禁
+止阈值 VNOCHG，则其充电控制端 CO 将被短接到 VM 端，使外接充电控制 N-MOS 管始终处于关
+闭状态。
+
+www.slkormicro.com
+
+8
+
+Rev.2 -- 16 December 2022
+
+DW01A
+应用电路图/ Application Circuits：
+
+DW01A
+
+各状态之间的转换图：
+
+www.slkormicro.com
+
+9
+
+Rev.2 -- 16 December 2022
+
+DW01A
+工作时序图/ Timing Chart
+(1) 过充保护/过充恢复& 过放保护/过放恢复
+Overcharge protection / overcharge recovery & Over-discharge protection / over-discharge
+recovery：
+
+(2) 过流保护检测& 负载短路保护检测
+Overcurrent detection &Load short-circuit protection detection
+
+www.slkormicro.com
+
+10
+
+Rev.2 -- 16 December 2022
+
+DW01A
+外形尺寸图
+
+/ Package Dimensions
+
+www.slkormicro.com
+
+11
+
+Rev.2 -- 16 December 2022
+
+DW01A
+回流焊温度曲线图(无铅)
+
+/
+
+Temperature Profile for IR Reflow Soldering(Pb-Free)
+
+说明：
+
+Note:
+
+1、预热温度 25～150℃，时间 60～90sec;
+
+1.Preheating:25~150℃, Time:60~90sec.
+
+2、峰值温度 245±5℃，时间持续为 5±0.5sec;
+
+2.Peak Temp.:245±5℃, Duration:5±0.5sec.
+
+3、焊接制程冷却速度为 2～10℃/sec.
+
+3. Cooling Speed: 2~10℃/sec.
+
+耐焊接热试验条件
+温度：260±5℃
+
+www.slkormicro.com
+
+/
+
+Resistance to Soldering Heat Test Conditions
+时间：10±1 sec.
+
+Temp.:260±5℃
+
+12
+
+Time:10±1 sec
+
+Rev.2 -- 16 December 2022
+
+

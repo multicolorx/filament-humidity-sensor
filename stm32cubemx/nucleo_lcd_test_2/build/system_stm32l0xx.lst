@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
   30:Core/Src/system_stm32l0xx.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
   31:Core/Src/system_stm32l0xx.c ****   *
   32:Core/Src/system_stm32l0xx.c ****   ******************************************************************************
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 2
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 2
 
 
   33:Core/Src/system_stm32l0xx.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
   87:Core/Src/system_stm32l0xx.c **** /*!< Uncomment the following line if you need to relocate your vector Table
   88:Core/Src/system_stm32l0xx.c ****      in Sram else user remap will be done in Flash. */
   89:Core/Src/system_stm32l0xx.c **** /* #define VECT_TAB_SRAM */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 3
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 3
 
 
   90:Core/Src/system_stm32l0xx.c **** #if defined(VECT_TAB_SRAM)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  144:Core/Src/system_stm32l0xx.c **** /** @addtogroup STM32L0xx_System_Private_Functions
  145:Core/Src/system_stm32l0xx.c ****   * @{
  146:Core/Src/system_stm32l0xx.c ****   */
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 4
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 4
 
 
  147:Core/Src/system_stm32l0xx.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  183:Core/Src/system_stm32l0xx.c ****   *             or HSI_VALUE(*) multiplied/divided by the PLL factors.
  184:Core/Src/system_stm32l0xx.c ****   *
  185:Core/Src/system_stm32l0xx.c ****   *         (*) HSI_VALUE is a constant defined in stm32l0xx_hal.h file (default value
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 5
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 5
 
 
  186:Core/Src/system_stm32l0xx.c ****   *             16 MHz) but the real value may vary depending on the variations
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
   77              		.loc 1 209 22 view .LVU10
   78 0018 5A68     		ldr	r2, [r3, #4]
   79              	.LVL3:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 6
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 6
 
 
   80              		.loc 1 209 52 view .LVU11
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  242:Core/Src/system_stm32l0xx.c ****         {
  243:Core/Src/system_stm32l0xx.c ****           SystemCoreClock = (((HSI_VALUE) * pllmul) / plldiv);
  244:Core/Src/system_stm32l0xx.c ****         }
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 7
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 7
 
 
  245:Core/Src/system_stm32l0xx.c ****       }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  136 004e 264B     		ldr	r3, .L10+4
  137 0050 274A     		ldr	r2, .L10+12
  138              	.LVL11:
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 8
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 8
 
 
  215:Core/Src/system_stm32l0xx.c ****       }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  178              		.loc 1 229 7 is_stmt 1 view .LVU45
  229:Core/Src/system_stm32l0xx.c ****       plldiv = (plldiv >> RCC_CFGR_PLLDIV_Pos) + 1U;
  179              		.loc 1 229 36 is_stmt 0 view .LVU46
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 9
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 9
 
 
  180 006c 800C     		lsrs	r0, r0, #18
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  239:Core/Src/system_stm32l0xx.c ****         }
  219              		.loc 1 239 48 is_stmt 0 view .LVU62
  220 008e 6346     		mov	r3, ip
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 10
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 10
 
 
  221 0090 5B01     		lsls	r3, r3, #5
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  267 00d4 6044     		add	r0, r0, ip
  268 00d6 4002     		lsls	r0, r0, #9
  249:Core/Src/system_stm32l0xx.c ****       }
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 11
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 11
 
 
  269              		.loc 1 249 51 view .LVU71
@@ -654,24 +654,24 @@ ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 1
  321              		.file 3 "C:/Program Files (x86)/Arm/GNU Toolchain mingw-w64-i686-arm-none-eabi/arm-none-eabi/inclu
  322              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h"
  323              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l053xx.h"
-ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s 			page 12
+ARM GAS  C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32l0xx.c
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:19     .text.SystemInit:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:25     .text.SystemInit:00000000 SystemInit
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:39     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:45     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:279    .text.SystemCoreClockUpdate:000000e4 $d
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:316    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:308    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:294    .rodata.PLLMulTable:00000000 PLLMulTable
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:291    .rodata.PLLMulTable:00000000 $d
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:301    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:298    .rodata.APBPrescTable:00000000 $d
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:305    .rodata.AHBPrescTable:00000000 $d
-C:\Users\Tilen\AppData\Local\Temp\ccLYo2LW.s:313    .data.SystemCoreClock:00000000 $d
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:19     .text.SystemInit:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:25     .text.SystemInit:00000000 SystemInit
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:39     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:45     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:279    .text.SystemCoreClockUpdate:000000e4 $d
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:316    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:308    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:294    .rodata.PLLMulTable:00000000 PLLMulTable
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:291    .rodata.PLLMulTable:00000000 $d
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:301    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:298    .rodata.APBPrescTable:00000000 $d
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:305    .rodata.AHBPrescTable:00000000 $d
+C:\Users\Tilen\AppData\Local\Temp\ccvbzfGZ.s:313    .data.SystemCoreClock:00000000 $d
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

@@ -1,0 +1,1648 @@
+TCR2LF series, TCR2LE series
+TOSHIBA CMOS Linear Integrated Circuit Silicon Monolithic
+
+TCR2LF series
+TCR2LE series
+Ultra low quiescent current
+200 mA CMOS Low Drop-Out Regulator in ultra small package
+The TCR2LF and TCR2LE series are CMOS general-purpose
+single-output voltage regulators with an on/off control input, featuring
+ultra low quiescent bias current and low dropout voltage.
+These voltage regulators are available in fixed output voltages
+between 0.8 V and 3.6 V and capable of driving up to 200 mA. They
+feature overcurrent protection and Auto-discharge function.
+The package is general SMV(SOT-25) (2.8 mm x 2.9 mm x 1.1
+mm ) and ESV(SOT-553) (1.6 mm x 1.6 mm x 0.55 mm ), and has a
+low dropout voltage of 270 mV ( 2.5 V output, IOUT = 150 mA).
+As small ceramic input and output capacitors 0.1μF can be used
+with the TCR2LF and TCR2LE series, these devices are ideal for
+portable applications that require high-density board assembly such
+as cellular phones.
+
+SMV
+
+ESV
+Weight :
+SMV (SOT-25)(SC-74A) : 16.0 mg ( typ.)
+ESV (SOT-553)
+: 3.0 mg ( typ.)
+
+Features
+•
+
+Low quiescent bias current ( IB = 2 μA (max) at IOUT = 0 mA, Tj = -40 to 85°C)
+
+•
+
+Low Drop-Out voltage
+VIN-VOUT = 270 mV (typ.) at 2.5 V-output, IOUT = 150 mA
+
+•
+
+Wide range output voltage line up ( VOUT = 0.8 to 3.6 V )
+
+•
+
+High VOUT accuracy ±1.0% ( 1.8V ≤ VOUT )
+
+•
+
+Overcurrent protection
+
+•
+
+Auto-discharge
+
+•
+
+Pull down connection between CONTROL and GND
+
+•
+
+Ceramic capacitors can be used ( CIN = 0.1 μF, COUT =0.1 μF )
+
+•
+
+General package SMV(SOT-25) (2.8 mm x 2.9 mm x 1.1 mm ) and ESV(SOT-553) (1.6 mm x 1.6 mm x 0.55 mm )
+
+1
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Absolute Maximum Ratings (Ta = 25°C)
+Characteristics
+
+Symbol
+
+Rating
+
+Unit
+
+Input voltage
+
+VIN
+
+6.0
+
+V
+
+Control voltage
+
+VCT
+
+-0.3 to 6.0
+
+V
+
+Output voltage
+
+VOUT
+
+-0.3 to VIN + 0.3
+
+V
+
+Output current
+
+IOUT
+
+200
+
+mA
+
+SMV
+Power dissipation
+
+PD
+ESV
+
+200
+
+(Note1)
+
+580
+
+(Note 2)
+
+150
+
+(Note 1)
+
+320
+
+(Note 3)
+
+mW
+
+Operation temperature range
+
+Topr
+
+−40 to 85
+
+°C
+
+Junction temperature
+
+Tj
+
+150
+
+°C
+
+Storage temperature range
+
+Tstg
+
+−55 to 150
+
+°C
+
+Note:
+
+Using continuously under heavy loads (e.g. the application of high temperature/current/voltage and the
+significant change in temperature, etc.) may cause this product to decrease in the reliability significantly
+even if the operating conditions (i.e. operating temperature/current/voltage, etc.) are within the absolute
+maximum ratings and the operating ranges.
+Please design the appropriate reliability upon reviewing the Toshiba Semiconductor Reliability Handbook
+(“Handling Precautions”/“Derating Concept and Methods”) and individual reliability data (i.e. reliability test
+report and estimated failure rate, etc).
+
+Note 1: Unit Rating
+Note 2: Rating at mounting on a board
+(FR4 board: 25.4 mm × 25.4 mm × 1.6 mm)
+Note 3: Rating at mounting on a board
+(FR4 board dimension: 30 mm × 30 mm × 0.8 mm)
+
+Pin Assignment (top view)
+SMV(SOT-25)(SC-74A)
+VOUT
+
+NC
+
+5
+
+4
+
+ESV(SOT-553)
+
+1
+1
+VIN
+
+2
+GND
+
+3
+CONTROL
+
+VOUT
+
+NC
+5
+
+CONTROL
+
+2
+
+4
+
+2
+
+3
+
+GND VIN
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+List of Products Number, Output voltage and Marking
+TCR2LF and TCR2LE series
+Product No.
+
+VOUT(V)
+(typ.)
+
+Marking
+
+SMV(SOT-25)
+
+ESV(SOT-553)
+
+TCR2LF08
+
+TCR2LE08
+
+0.8
+
+TCR2LF085
+
+TCR2LE085
+
+TCR2LF09
+
+Product No.
+
+VOUT(V)
+(typ.)
+
+Marking
+
+SMV(SOT-25)
+
+ESV(SOT-553)
+
+0L8
+
+TCR2LF19
+
+TCR2LE19
+
+1.9
+
+1L9
+
+0.85
+
+0LD
+
+TCR2LF20
+
+TCR2LE20
+
+2.0
+
+2L0
+
+TCR2LE09
+
+0.9
+
+0L9
+
+TCR2LF21
+
+TCR2LE21
+
+2.1
+
+2L1
+
+TCR2LF095
+
+TCR2LE095
+
+0.95
+
+0LE
+
+TCR2LF25
+
+TCR2LE25
+
+2.5
+
+2L5
+
+TCR2LF10
+
+TCR2LE10
+
+1.0
+
+1L0
+
+TCR2LF27
+
+TCR2LE27
+
+2.7
+
+2L7
+
+TCR2LF105
+
+TCR2LE105
+
+1.05
+
+1LA
+
+TCR2LF28
+
+TCR2LE28
+
+2.8
+
+2L8
+
+TCR2LF11
+
+TCR2LE11
+
+1.1
+
+1L1
+
+TCR2LF285
+
+TCR2LE285
+
+2.85
+
+2LD
+
+TCR2LF115
+
+TCR2LE115
+
+1.15
+
+1LB
+
+TCR2LF30
+
+TCR2LE30
+
+3.0
+
+3L0
+
+TCR2LF12
+
+TCR2LE12
+
+1.2
+
+1L2
+
+TCR2LF31
+
+TCR2LE31
+
+3.1
+
+3L1
+
+TCR2LF13
+
+TCR2LE13
+
+1.3
+
+1L3
+
+TCR2LF32
+
+TCR2LE32
+
+3.2
+
+3L2
+
+TCR2LF15
+
+TCR2LE15
+
+1.5
+
+1L5
+
+TCR2LF33
+
+TCR2LE33
+
+3.3
+
+3L3
+
+TCR2LF18
+
+TCR2LE18
+
+1.8
+
+1L8
+
+TCR2LF36
+
+TCR2LE36
+
+3.6
+
+3L6
+
+* Please contact local Toshiba representative if you are interested in product that output voltage is not in the list.
+
+Marking (top view)
+Example: TCR2LF33 (3.3 V output)
+
+Example: TCR2LE33 (3.3 V output)
+
+3L3
+
+3L3
+
+3
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Electrical Characteristics
+(Unless otherwise specified,
+VIN = VOUT+1 V (VOUT>1.5V), VIN=2.5V (VOUT≤1.5V), IOUT = 50 mA, CIN = 0.1 μF, COUT = 0.1 μF)
+Tj = 25°C
+Characteristics
+
+Symbol
+
+Tj = -40 to 85°C
+
+Test Condition
+
+Unit
+Min
+
+Typ.
+
+Max
+
+Min
+
+Max
+
+IOUT = 50 mA
+
+VOUT <1.8 V
+
+-18
+
+―
+
++18
+
+―
+
+―
+
+mV
+
+(Note 4)
+
+1.8V ≤ VOUT
+
+-1.0
+
+―
+
++1.0
+
+―
+
+―
+
+%
+
+IOUT = 1 mA
+
+1.5
+
+―
+
+5.5
+
+1.5
+
+5.5
+
+V
+
+Reg･line
+
+VOUT + 0.5 V ≤ VIN ≤ 5.5 V,
+IOUT = 1 mA
+
+―
+
+1
+
+15
+
+―
+
+―
+
+mV
+
+Load regulation
+
+Reg･load
+
+1 mA ≤ IOUT ≤ 150 mA
+
+―
+
+15
+
+30
+
+―
+
+―
+
+mV
+
+Quiescent current
+
+IB
+
+IOUT = 0 mA
+
+―
+
+1.0
+
+―
+
+―
+
+2.0
+
+μA
+
+Stand-by current
+
+IB (OFF)
+
+VCT = 0 V
+
+―
+
+0.1
+
+―
+
+―
+
+1.0
+
+μA
+
+―
+
+0.1
+
+―
+
+―
+
+―
+
+μA
+
+VOUT = 1.8V
+
+―
+
+370
+
+―
+
+―
+
+620
+
+mV
+
+VOUT = 3.0V
+
+―
+
+220
+
+―
+
+―
+
+300
+
+mV
+
+―
+
+75
+
+―
+
+―
+
+―
+
+ppm/°C
+
+Output voltage accuracy
+
+VOUT
+
+Input voltage
+
+VIN
+
+Line regulation
+
+Control pull down current
+Drop-out voltage
+
+(Note 5)
+―
+
+ICT
+VIN-VOUT
+
+Temperature coefficient
+
+TCVO
+
+IOUT = 150 mA
+
+−40°C ≤ Topr ≤ 85°C
+
+Control voltage (ON)
+
+VCT (ON)
+
+―
+
+1.0
+
+―
+
+5.5
+
+1.0
+
+5.5
+
+V
+
+Control voltage (OFF)
+
+VCT (OFF)
+
+―
+
+0
+
+―
+
+0.4
+
+0
+
+0.4
+
+V
+
+Discharge on resistance
+
+RSD
+
+―
+
+―
+
+20
+
+―
+
+―
+
+―
+
+Ω
+
+Note 4:
+Note 5:
+
+Stable state with fixed IOUT condition
+Except Control pull down current
+
+Drop-out voltage
+
+(IOUT = 150 mA, CIN = 0.1 μF, COUT = 0.1 μF, Tj = 25°C)
+Output voltages
+
+Min
+
+Typ.
+
+Max(Note 6)
+
+0.8 V <
+= VOUT < 0.9 V
+
+―
+
+1020
+
+1580
+
+0.9 V <
+= VOUT < 1.0 V
+
+―
+
+940
+
+1480
+
+1.0 V <
+= VOUT < 1.1 V
+
+―
+
+860
+
+1400
+
+1.1 V <
+= VOUT < 1.2 V
+
+―
+
+780
+
+1300
+
+1.2 V <
+= VOUT < 1.3 V
+
+―
+
+700
+
+1250
+
+1.3 V <
+= VOUT < 1.6 V
+
+Symbol
+
+―
+
+620
+
+1130
+
+1.6 V <
+= VOUT < 1.8 V
+
+―
+
+470
+
+860
+
+1.8 V <
+= VOUT < 2.0 V
+
+―
+
+370
+
+620
+
+2.0 V <
+= VOUT < 2.5 V
+
+―
+
+320
+
+560
+
+2.5 V <
+= VOUT < 3.0 V
+
+―
+
+270
+
+380
+
+3.0 V <
+= VOUT <
+= 3.6 V
+
+―
+
+220
+
+300
+
+Note 6:
+
+VIN-VOUT
+
+Unit
+
+mV
+
+Tj = -40 to 85°C
+
+4
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Application Note
+1. Recommended Application Circuit
+●ESV
+
+●SMV
+VOUT
+
+NC
+
+0.1 μF
+
+VIN
+
+GND
+
+0.1 μF
+
+NC
+
+CONTROL
+
+0.1 μF
+
+0.1 μF
+
+VOUT
+
+CONTROL GND VIN
+
+CONTROL pin
+connection
+
+Operation
+
+HIGH
+
+ON
+
+LOW
+
+OFF
+
+OPEN
+
+OFF
+
+The figure above shows the recommended configuration for using a Low-Dropout regulator. Insert a capacitor at
+VOUT and VIN pins for stable input/output operation. (Ceramic capacitors can be used).
+
+2. Power Dissipation
+Both unit and board-mounted power dissipation ratings for TCR2LF series and TCR2LE series are available in the
+Absolute Maximum Ratings table.
+Power dissipation is measured on the board shown below.
+
+Testing Board of Thermal Resistance
+
+ESV
+
+*Board material: FR4 board
+
+*Board material: FR4
+
+Board dimension: 25.4 mm × 25.4 mm × 1.6 mm
+
+Board dimension: 30 mm × 30 mm × 0.8 mm
+
+Copper area: 645 mm
+
+Copper area: 20 mm
+
+2
+
+PD – Ta (SMV)
+
+800
+
+① Board dimension 25.4 mm x 25.4
+mm, x
+2
+1.6 mm Copper area 645 mm ,
+mounted on FR4 Board
+② Unit Rating
+
+600
+①
+
+400
+
+②
+200
+
+0
+−40
+
+0
+
+40
+
+80
+
+120
+
+2
+
+PD – Ta (ESV)
+
+400
+
+Power dissipation PD (mW)
+
+Power dissipation PD (mW)
+
+SMV
+
+①
+300
+
+200
+②
+
+100
+① Board dimension 30 mm x 30 mm,
+2
+x 0.8 mm Copper area 20 mm ,
+mounted on Glass Epoxy Board
+② Unit Rating
+
+0
+−40
+
+0
+
+40
+
+80
+
+120
+
+Ambient Temperature Ta (°C)
+
+Ambient Temperature Ta (°C)
+
+5
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Attention in Use
+●
+
+Output Capacitors
+Ceramic capacitors can be used for these devices. However, because of the type of the capacitors, there might be
+unexpected thermal features. Please consider application condition for selecting capacitors. And Toshiba
+recommend the ESR of ceramic capacitor is under 10 Ω.
+
+●
+
+Mounting
+The long distance between IC and output capacitor might affect phase assurance by impedance in wire and inductor.
+For stable power supply, output capacitor need to mount near IC as much as possible. Also VIN and GND pattern
+need to be large and make the wire impedance small as possible.
+
+●
+
+Permissible Loss
+Please have enough design patterns for expected maximum permissible loss. And under consideration of
+surrounding temperature, input voltage, and output current etc, we recommend proper dissipation ratings for
+maximum permissible loss; in general maximum dissipation rating is 70 to 80 percent.
+
+●
+
+Overcurrent Protection Circuit
+Overcurrent protection circuit is designed in these products, but this does not assure for the suppression of uprising
+device operation. If output pins and GND pins are shorted out, these products might be break down.
+In use of these products, please read through and understand dissipation idea for absolute maximum ratings from
+the above mention or our ‘Semiconductor Reliability Handbook’. Then use these products under absolute maximum
+ratings in any condition. Furthermore, Toshiba recommend inserting failsafe system into the design.
+
+6
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Representative Typical Characteristics
+VOUT=0.8V
+
+VOUT=1.8V
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Output Voltage VOUT (V)
+
+Output Voltage VOUT (V)
+
+1) Output Voltage vs. Input Voltage
+
+IOUT = 1mA
+
+IOUT = 100mA
+IOUT = 150mA
+
+IOUT = 1mA
+
+IOUT = 100mA
+IOUT = 150mA
+
+Input Voltage VIN (V)
+
+Input Voltage VIN (V)
+VOUT=3.6V
+Output Voltage VOUT (V)
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+IOUT = 1mA
+
+IOUT = 100mA
+IOUT = 150mA
+
+Input Voltage VIN (V)
+Quiescent Current vs. Input Voltage
+
+VOUT=1.8V
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+(μA)
+
+VOUT=0.8V
+
+IOUT = 0 mA
+
+Quiescent Current IB
+
+IOUT = 0 mA
+
+Quiescent Current IB
+
+(μA)
+
+2)
+
+Input Voltage VIN (V)
+
+Input Voltage VIN (V)
+
+7
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 0 mA
+
+Quiescent Current IB
+
+(μA)
+
+VOUT=3.6V
+
+Input Voltage VIN (V)
+Output Voltage vs. Output Current
+
+VOUT=0.8V
+
+VOUT=1.8V
+
+VIN = 2.5 V,
+
+VIN = 2.8 V,
+
+Output Voltage VOUT (V)
+
+Output Voltage VOUT (V)
+
+3)
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Output Current IOUT (mA)
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Output Current IOUT (mA)
+
+VOUT=3.6V
+Output Voltage VOUT (V)
+
+VIN = 4.6 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Output Current IOUT (mA)
+
+8
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Output Voltage vs. Ambient Temperature
+
+VOUT=0.8V
+
+VOUT=1.8V
+
+VIN = 2.5 V,
+
+VIN = 2.8 V,
+
+Output Voltage VOUT (V)
+
+Output Voltage VOUT (V)
+
+4)
+
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 50mA
+
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 50mA
+
+Ambient Temperature Ta (°C)
+
+Ambient Temperature Ta (°C)
+VOUT=3.6V
+Output Voltage VOUT (V)
+
+VIN = 4.6 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 50mA
+
+Ambient Temperature Ta (°C)
+Dropout Voltage vs. Output Current
+
+VOUT=0.8V
+
+VOUT=1.8V
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Dropout voltage VIN - VOUT (mV)
+
+Dropout voltage VIN - VOUT (mV)
+
+5)
+
+Output Current IOUT (mA)
+
+Output Current IOUT (mA)
+
+9
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+
+Dropout voltage VIN - VOUT (mV)
+
+VOUT=3.6V
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Output Current IOUT (mA)
+Quiescent Current vs. Ambient Temperature
+
+VOUT=1.8V
+
+VIN = 2.5 V,
+
+VIN = 2.8 V,
+
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 0mA
+
+(μA)
+
+VOUT=0.8V
+
+Quiescent Current IB
+
+Quiescent Current IB
+
+(μA)
+
+6)
+
+Ambient Temperature Ta (°C)
+
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 0mA
+
+Ambient Temperature Ta (°C)
+
+Quiescent Current IB
+
+(μA)
+
+VOUT=3.6V
+VIN = 4.6 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+IOUT = 0mA
+
+Ambient Temperature Ta (°C)
+
+10
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Ripple Rejection Ratio vs. Frequency
+
+VOUT=0.8V
+
+VOUT=1.8V
+
+VIN = 2.5 V,
+
+VIN = 2.8 V,
+
+CIN = none, COUT = 0.1 μF
+IOUT = 10mA
+
+Ripple Rejection Ratio (dB)
+
+Ripple Rejection Ratio (dB)
+
+7)
+
+CIN = none, COUT = 0.1 μF
+IOUT = 10mA
+
+Frequency f (Hz)
+
+Frequency f (Hz)
+VOUT=3.6V
+Ripple Rejection Ratio (dB)
+
+VIN = 4.6 V,
+CIN = none, COUT = 0.1 μF
+IOUT = 10mA
+
+Frequency f (Hz)
+8)
+
+Output Voltage vs. Output Current
+
+VOUT=1.8V
+
+Output Voltage VOUT (V)
+
+Output Voltage VOUT (V)
+
+VOUT=0.8V
+
+Output Current IOUT (mA)
+
+Output Current IOUT (mA)
+
+11
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+
+Output Voltage VOUT (V)
+
+VOUT=3.6V
+
+Output Current IOUT (mA)
+Control Transient vs. Response
+
+VOUT=1.8V
+
+VIN = 2.5 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+VIN = 2.8 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+Control voltage
+VCT (V)
+
+2.0
+
+VOUT=0.8V
+
+1.0
+0
+
+IOUT = 1mA
+
+Output voltage
+VOUT (V)
+
+Output voltage
+VOUT (V)
+
+Control voltage
+VCT (V)
+
+9)
+
+1.0
+0.5
+0
+
+IOUT = 150mA
+Time t (100 μs/div)
+
+2.0
+1.0
+0
+
+IOUT = 1mA
+2.0
+1.0
+0
+
+IOUT = 150mA
+Time t (100 μs/div)
+
+Output voltage
+VOUT (V)
+
+Control voltage
+VCT (V)
+
+VOUT=3.6V
+2.0
+
+VIN = 4.6 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+1.0
+0
+
+4.0
+
+IOUT = 1mA
+
+2.0
+0
+
+IOUT = 150mA
+Time t (100 μs/div)
+
+12
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+10)
+
+Load Transient Response
+
+0.80
+
+50
+
+1.80
+1.30
+
+Time t (100 μs/div)
+
+Time t (100 μs/div)
+
+VOUT=3.6V
+(IOUT = 50mA ⇔ 100mA)
+
+VOUT=0.8V
+(IOUT = 1mA ⇔ 10mA)
+
+VIN = 4.6 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+100
+
+Output voltage
+VOUT (V)
+
+50
+
+3.60
+3.10
+
+20
+
+2.30
+
+VIN = 2.8 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+100
+
+Output current
+IOUT (mA)
+
+Output current
+IOUT (mA)
+
+4.10
+
+Output current
+IOUT (mA)
+
+Output voltage
+VOUT (V)
+
+0.30
+
+Output current
+IOUT (mA)
+
+50
+
+150
+
+Output voltage
+VOUT (V)
+
+100
+
+150
+
+Output voltage
+VOUT (V)
+
+VIN = 2.5 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+20
+
+VIN = 2.5 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+10
+0
+
+1.30
+0.80
+0.30
+
+Time t (100 μs/div)
+
+Time t (100 μs/div)
+
+VOUT=1.8V
+(IOUT = 1mA ⇔ 10mA)
+
+VOUT=3.6V
+(IOUT = 1mA ⇔ 10mA)
+
+VIN = 2.8 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+10
+0
+
+2.30
+1.80
+1.30
+
+Output current
+IOUT (mA)
+
+1.30
+
+VOUT=1.8V
+(IOUT = 50mA ⇔ 100mA)
+
+20
+
+Output voltage
+VOUT (V)
+
+Output current
+IOUT (mA)
+
+150
+
+Output voltage
+VOUT (V)
+
+VOUT=0.8V
+(IOUT = 50mA ⇔ 100mA)
+
+4.10
+
+VIN = 4.6 V,
+CIN = 0.1 μF, COUT = 0.1 μF
+
+10
+0
+
+3.60
+3.10
+
+Time t (100 μs/div)
+
+Time t (100 μs/div)
+
+13
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Package Dimensions
+SMV (SOT-25)(SC-74A)
+
+Unit: mm
+
+Weight : 16.0 mg (typ.)
+
+14
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+Package Dimensions
+ESV (SOT-553)
+
+Unit: mm
+
+Weight: 3.0 mg (typ.)
+
+15
+
+2014-11-06
+
+TCR2LF series, TCR2LE series
+RESTRICTIONS ON PRODUCT USE
+• Toshiba Corporation, and its subsidiaries and affiliates (collectively "TOSHIBA"), reserve the right to make changes to the information
+in this document, and related hardware, software and systems (collectively "Product") without notice.
+• This document and any information herein may not be reproduced without prior written permission from TOSHIBA. Even with
+TOSHIBA's written permission, reproduction is permissible only if reproduction is without alteration/omission.
+• Though TOSHIBA works continually to improve Product's quality and reliability, Product can malfunction or fail. Customers are
+responsible for complying with safety standards and for providing adequate designs and safeguards for their hardware, software and
+systems which minimize risk and avoid situations in which a malfunction or failure of Product could cause loss of human life, bodily
+injury or damage to property, including data loss or corruption. Before customers use the Product, create designs including the
+Product, or incorporate the Product into their own applications, customers must also refer to and comply with (a) the latest versions of
+all relevant TOSHIBA information, including without limitation, this document, the specifications, the data sheets and application notes
+for Product and the precautions and conditions set forth in the "TOSHIBA Semiconductor Reliability Handbook" and (b) the
+instructions for the application with which the Product will be used with or for. Customers are solely responsible for all aspects of their
+own product design or applications, including but not limited to (a) determining the appropriateness of the use of this Product in such
+design or applications; (b) evaluating and determining the applicability of any information contained in this document, or in charts,
+diagrams, programs, algorithms, sample application circuits, or any other referenced documents; and (c) validating all operating
+parameters for such designs and applications. TOSHIBA ASSUMES NO LIABILITY FOR CUSTOMERS' PRODUCT DESIGN OR
+APPLICATIONS.
+• PRODUCT IS NEITHER INTENDED NOR WARRANTED FOR USE IN EQUIPMENTS OR SYSTEMS THAT REQUIRE
+EXTRAORDINARILY HIGH LEVELS OF QUALITY AND/OR RELIABILITY, AND/OR A MALFUNCTION OR FAILURE OF WHICH
+MAY CAUSE LOSS OF HUMAN LIFE, BODILY INJURY, SERIOUS PROPERTY DAMAGE AND/OR SERIOUS PUBLIC IMPACT
+("UNINTENDED USE"). Except for specific applications as expressly stated in this document, Unintended Use includes, without
+limitation, equipment used in nuclear facilities, equipment used in the aerospace industry, medical equipment, equipment used for
+automobiles, trains, ships and other transportation, traffic signaling equipment, equipment used to control combustions or explosions,
+safety devices, elevators and escalators, devices related to electric power, and equipment used in finance-related fields. IF YOU USE
+PRODUCT FOR UNINTENDED USE, TOSHIBA ASSUMES NO LIABILITY FOR PRODUCT. For details, please contact your
+TOSHIBA sales representative.
+• Do not disassemble, analyze, reverse-engineer, alter, modify, translate or copy Product, whether in whole or in part.
+• Product shall not be used for or incorporated into any products or systems whose manufacture, use, or sale is prohibited under any
+applicable laws or regulations.
+• The information contained herein is presented only as guidance for Product use. No responsibility is assumed by TOSHIBA for any
+infringement of patents or any other intellectual property rights of third parties that may result from the use of Product. No license to
+any intellectual property right is granted by this document, whether express or implied, by estoppel or otherwise.
+• ABSENT A WRITTEN SIGNED AGREEMENT, EXCEPT AS PROVIDED IN THE RELEVANT TERMS AND CONDITIONS OF SALE
+FOR PRODUCT, AND TO THE MAXIMUM EXTENT ALLOWABLE BY LAW, TOSHIBA (1) ASSUMES NO LIABILITY
+WHATSOEVER, INCLUDING WITHOUT LIMITATION, INDIRECT, CONSEQUENTIAL, SPECIAL, OR INCIDENTAL DAMAGES OR
+LOSS, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, LOSS OF OPPORTUNITIES, BUSINESS INTERRUPTION AND
+LOSS OF DATA, AND (2) DISCLAIMS ANY AND ALL EXPRESS OR IMPLIED WARRANTIES AND CONDITIONS RELATED TO
+SALE, USE OF PRODUCT, OR INFORMATION, INCLUDING WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, ACCURACY OF INFORMATION, OR NONINFRINGEMENT.
+• Do not use or otherwise make available Product or related software or technology for any military purposes, including without
+limitation, for the design, development, use, stockpiling or manufacturing of nuclear, chemical, or biological weapons or missile
+technology products (mass destruction weapons). Product and related software and technology may be controlled under the
+applicable export laws and regulations including, without limitation, the Japanese Foreign Exchange and Foreign Trade Law and the
+U.S. Export Administration Regulations. Export and re-export of Product or related software or technology are strictly prohibited
+except in compliance with all applicable export laws and regulations.
+• Please contact your TOSHIBA sales representative for details as to environmental matters such as the RoHS compatibility of Product.
+Please use Product in compliance with all applicable laws and regulations that regulate the inclusion or use of controlled substances,
+including without limitation, the EU RoHS Directive. TOSHIBA ASSUMES NO LIABILITY FOR DAMAGES OR LOSSES
+OCCURRING AS A RESULT OF NONCOMPLIANCE WITH APPLICABLE LAWS AND REGULATIONS.
+
+16
+
+2014-11-06
+
+

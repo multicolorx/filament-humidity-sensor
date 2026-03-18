@@ -78,6 +78,81 @@ void HAL_MspInit(void)
 }
 
 /**
+  * @brief I2C MSP Initialization
+  * This function configures the hardware resources used in this example
+  * @param hi2c: I2C handle pointer
+  * @retval None
+  */
+void HAL_I2C_MspInit(I2C_HandleTypeDef* hi2c)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  if(hi2c->Instance==I2C2)
+  {
+    /* USER CODE BEGIN I2C2_MspInit 0 */
+
+    /* USER CODE END I2C2_MspInit 0 */
+
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+    /**I2C2 GPIO Configuration
+    PB11     ------> I2C2_SDA
+    PB13     ------> I2C2_SCL
+    */
+    GPIO_InitStruct.Pin = GPIO_PIN_11;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF6_I2C2;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = GPIO_PIN_13;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_OD;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF5_I2C2;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+    /* Peripheral clock enable */
+    __HAL_RCC_I2C2_CLK_ENABLE();
+    /* USER CODE BEGIN I2C2_MspInit 1 */
+
+    /* USER CODE END I2C2_MspInit 1 */
+
+  }
+
+}
+
+/**
+  * @brief I2C MSP De-Initialization
+  * This function freeze the hardware resources used in this example
+  * @param hi2c: I2C handle pointer
+  * @retval None
+  */
+void HAL_I2C_MspDeInit(I2C_HandleTypeDef* hi2c)
+{
+  if(hi2c->Instance==I2C2)
+  {
+    /* USER CODE BEGIN I2C2_MspDeInit 0 */
+
+    /* USER CODE END I2C2_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_I2C2_CLK_DISABLE();
+
+    /**I2C2 GPIO Configuration
+    PB11     ------> I2C2_SDA
+    PB13     ------> I2C2_SCL
+    */
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_11);
+
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_13);
+
+    /* USER CODE BEGIN I2C2_MspDeInit 1 */
+
+    /* USER CODE END I2C2_MspDeInit 1 */
+  }
+
+}
+
+/**
   * @brief LCD MSP Initialization
   * This function configures the hardware resources used in this example
   * @param hlcd: LCD handle pointer
@@ -134,6 +209,9 @@ void HAL_LCD_MspInit(LCD_HandleTypeDef* hlcd)
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
+    /* LCD interrupt Init */
+    HAL_NVIC_SetPriority(LCD_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(LCD_IRQn);
     /* USER CODE BEGIN LCD_MspInit 1 */
 
     /* USER CODE END LCD_MspInit 1 */
@@ -180,9 +258,62 @@ void HAL_LCD_MspDeInit(LCD_HandleTypeDef* hlcd)
     HAL_GPIO_DeInit(GPIOB, GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_10
                           |GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_9);
 
+    /* LCD interrupt DeInit */
+    HAL_NVIC_DisableIRQ(LCD_IRQn);
     /* USER CODE BEGIN LCD_MspDeInit 1 */
 
     /* USER CODE END LCD_MspDeInit 1 */
+  }
+
+}
+
+/**
+  * @brief RTC MSP Initialization
+  * This function configures the hardware resources used in this example
+  * @param hrtc: RTC handle pointer
+  * @retval None
+  */
+void HAL_RTC_MspInit(RTC_HandleTypeDef* hrtc)
+{
+  if(hrtc->Instance==RTC)
+  {
+    /* USER CODE BEGIN RTC_MspInit 0 */
+
+    /* USER CODE END RTC_MspInit 0 */
+    /* Peripheral clock enable */
+    __HAL_RCC_RTC_ENABLE();
+    /* RTC interrupt Init */
+    HAL_NVIC_SetPriority(RTC_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(RTC_IRQn);
+    /* USER CODE BEGIN RTC_MspInit 1 */
+
+    /* USER CODE END RTC_MspInit 1 */
+
+  }
+
+}
+
+/**
+  * @brief RTC MSP De-Initialization
+  * This function freeze the hardware resources used in this example
+  * @param hrtc: RTC handle pointer
+  * @retval None
+  */
+void HAL_RTC_MspDeInit(RTC_HandleTypeDef* hrtc)
+{
+  if(hrtc->Instance==RTC)
+  {
+    /* USER CODE BEGIN RTC_MspDeInit 0 */
+
+    /* USER CODE END RTC_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_RTC_DISABLE();
+
+    /* RTC interrupt DeInit */
+    HAL_NVIC_DisableIRQ(RTC_IRQn);
+    /* USER CODE BEGIN RTC_MspDeInit 1 */
+
+    /* USER CODE END RTC_MspDeInit 1 */
   }
 
 }
