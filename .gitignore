@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+.vscode/
+
+# STM32CubeIDE / Eclipse build output
+**/Debug/
+**/Release/
+**/.settings/
+**/.project
+**/.cproject
+
+# KiCad local/cache files
+*.kicad_prl
+fp-info-cache
+*-backups/
+*.kicad_sch-bak

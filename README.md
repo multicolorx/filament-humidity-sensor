@@ -4,7 +4,7 @@ Battery-powered filament storage humidity monitor based on `STM32L053` + `SHT40`
 
 ## Overview
 
-This repository contains the hardware design files for a compact humidity sensor intended for filament storage monitoring.
+This repository contains the hardware design files and supporting firmware for a compact humidity sensor intended for filament storage monitoring.
 
 The board is built around:
 - `STM32L053R8T6` low-power MCU (with LCD segment peripheral)
@@ -16,10 +16,15 @@ The board is built around:
 
 ## Repository Layout
 
-- `filament-humidity-sensor/filament-humidity-sensor.kicad_sch` schematic
-- `filament-humidity-sensor/filament-humidity-sensor.kicad_pcb` PCB layout
-- `filament-humidity-sensor/filament-humidity-sensor.kicad_pro` KiCad project
-- `datasheets/` component datasheets used in the design
+- [Schematic](hardware/kicad/filament-humidity-sensor.kicad_sch)
+- [PCB layout](hardware/kicad/filament-humidity-sensor.kicad_pcb)
+- [KiCad project](hardware/kicad/filament-humidity-sensor.kicad_pro)
+- [Gerber files](hardware/gerbers/rev001/)
+- [Gerber zip release](hardware/gerbers/gerbers-rev001.zip)
+- [Datasheets](hardware/datasheets/)
+- [Example firmware](firmware/low-power-example/)
+
+See [hardware/README.md](hardware/README.md) for the hardware-specific file index.
 
 ## Hardware Interfaces
 
@@ -56,7 +61,7 @@ Use an ST-Link compatible probe for programming/debugging.
 
 ## Getting Started
 
-1. Open `filament-humidity-sensor/filament-humidity-sensor.kicad_pro` in KiCad 9.
+1. Open `hardware/kicad/filament-humidity-sensor.kicad_pro` in KiCad 9.
 2. Inspect schematic and run ERC.
 3. Open PCB and run DRC.
 4. Generate Gerber files.
@@ -73,7 +78,7 @@ Example firmware is available in `firmware/low-power-example/`:
 
 - The design uses a single-cell Li-ion source; follow proper battery safety practices.
 - Verify connector orientation and pin 1 markings before first power-up.
-- Review all datasheets in `datasheets/` before ordering parts or assembling prototypes.
+- Review the datasheets in `hardware/datasheets/` before ordering parts or assembling prototypes.
 
 ## License
 
